@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  db:
+    build:
+      context: ./api/db/postgres
+    environment:
+      POSTGRES_USER: mercedes
+      POSTGRES_PASSWORD: mercedes
+      POSTGRES_DB: infinity
+    ports:
+      - "5432:5432"
+  api:
+    build:
+      context: ./api
+    environment:
+      DATABASE_URL: "postgres://mercedes:mercedes@db/infinity?sslmode=disable"
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db

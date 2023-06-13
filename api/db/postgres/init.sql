@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS nft (
+    id SERIAL PRIMARY KEY,
+    nric TEXT UNIQUE NOT NULL,
+    wallet_address TEXT NOT NULL
+);
