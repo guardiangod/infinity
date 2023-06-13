@@ -1,0 +1,35 @@
+# Ignore node modules
+/node_modules
+
+# Ignore built binaries
+/bin
+
+# Ignore go vendor directory
+/vendor
+
+# Ignore compiled Go files
+*.exe
+*.test
+*.prof
+
+# Ignore local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore logs
+*.log
+
+# Ignore cache files
+.cache
+.cache-loader
+.cache/webpack
+*.db
+*.sqlite3
+
+# Ignore build files
+/dist
+/build
+/out
+.next/
