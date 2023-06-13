@@ -79,60 +79,58 @@ truffle test
 
 ## Project structure
 Here's the structure for the repository:
-
+```
 infinity/
-├── api/
-│   ├── db/
-│   │   ├── migrations/
-│   │   │   ├── 0001_init.up.sql
-│   │   │   ├── 0001_init.down.sql
-│   │   ├── postgres/
-│   │   │   ├── Dockerfiled
-│   │   │   ├── init.sql
-│   ├── docker-compose.yaml
-│   ├── Dockerfile
-│   ├── go.mod
-│   ├── go.sum
-│   ├── main.go
-│   ├── README.md
-├── smart-contracts/
-│   ├── contracts/
-│   │   ├── Migrations.sol
-│   │   ├── NFT.sol
-│   │   └── NFTMetadata.sol
-│   ├── migrations/
-│   │   ├── 1_initial_migration.js
-│   │   └── 2_deploy_nft.js
-│   ├── test/
-│   │   └── nft.js
-│   ├── package.json
-│   ├── truffle-config.js
-│   └── README.md
-├── webapp/
-│   ├── public/
-│   │   ├── favicon.ico
-│   │   ├── index.html
-│   │   ├── manifest.json
-│   │   └── robots.txt
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── ClaimNFT.js
-│   │   │   ├── NFTImage.js
-│   │   │   ├── NFTMetadata.js
-│   │   ├── App.js
-│   │   ├── App.test.js
-│   │   ├── index.css
-│   │   ├── index.js
-│   ├── .dockerignore
-│   ├── Dockerfile
-│   ├── package.json
-│   ├── docker-compose.yaml
-│   └── README.md
-├── .env.example
-├── .gitignore
-├── docker-compose.yaml
-├── package.json
-└── README.md
+  ├── api/
+  │   ├── db/
+  │   │   ├── postgres/
+  │   │   │   ├── Dockerfiled
+  │   │   │   ├── init.sql
+  │   ├── docker-compose.yaml
+  │   ├── Dockerfile
+  │   ├── go.mod
+  │   ├── go.sum
+  │   ├── main.go
+  │   ├── README.md
+  ├── smart-contracts/
+  │   ├── contracts/
+  │   │   ├── Migrations.sol
+  │   │   ├── NFT.sol
+  │   │   └── NFTMetadata.sol
+  │   ├── migrations/
+  │   │   ├── 1_initial_migration.js
+  │   │   └── 2_deploy_nft.js
+  │   ├── test/
+  │   │   └── nft.js
+  │   ├── package.json
+  │   ├── truffle-config.js
+  │   └── README.md
+  ├── webapp/
+  │   ├── public/
+  │   │   ├── favicon.ico
+  │   │   ├── index.html
+  │   │   ├── manifest.json
+  │   │   └── robots.txt
+  │   ├── src/
+  │   │   ├── components/
+  │   │   │   ├── ClaimNFT.js
+  │   │   │   ├── NFTImage.js
+  │   │   │   ├── NFTMetadata.js
+  │   │   ├── App.js
+  │   │   ├── App.test.js
+  │   │   ├── index.css
+  │   │   ├── index.js
+  │   ├── .dockerignore
+  │   ├── Dockerfile
+  │   ├── package.json
+  │   ├── docker-compose.yaml
+  │   └── README.md
+  ├── .env.example
+  ├── .gitignore
+  ├── docker-compose.yaml
+  ├── package.json
+  └── README.md
+```
 
 
 ## License
