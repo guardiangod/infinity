@@ -31,6 +31,6 @@
       "@types/express": "^5.0.6",
       "chai": "^4.3.4",
       "mocha": "^9.1.2",
-      "supertest": "^6.1.4"
+      "supertest": "^7.2.2"
     }
 }
