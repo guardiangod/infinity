@@ -23,7 +23,7 @@
     "license": "Ryan-Le",
     "dependencies": {
       "dotenv": "^17.2.3",
-      "express": "^4.17.1",
+      "express": "^5.2.1",
       "pg": "^8.7.1",
       "web3": "^4.16.0"
     },
